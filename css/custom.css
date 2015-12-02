@@ -1,0 +1,43 @@
+/*--- CUSTOM STYLES ---*/
+
+.text-slider .flex-direction-nav li a:before {
+  color: #fff;
+}
+
+.bg-primary {
+	background-color: #b91016 !important;
+}
+
+.bg-secondary {
+	background-color: #b5b5b5 !important;
+}
+
+.detailsWhy {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 32px;
+	margin-top: 10px;
+}
+
+.whyBr i {
+	font-size: 28px;
+	color: #770004;
+	margin-right: 10px;
+	text-shadow: 0 1px 0 #F11E26;
+}
+
+.button-tabs .active .tab-title {
+	background-color: #b91016 !important;
+}
+
+.featuredImg {
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 4px solid #8e8e8e;
+}
+
+.featuredText {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 14px;
+}
