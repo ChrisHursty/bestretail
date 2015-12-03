@@ -18,16 +18,13 @@
     <body>
 				
 		<div class="nav-container">
-		    
-		    
-		
-		    
+    
 		    <nav>
 		        <div class="nav-bar">
 		            <div class="module left">
 		                <a href="index.html">
-		                    <img class="logo logo-light" alt="Foundry" src="img/logo-light.png">
-		                    <img class="logo logo-dark" alt="Foundry" src="img/logo-dark.png">
+		                    <img class="logo logo-light" alt="BestRetail" src="img/logo-light.png">
+		                    <img class="logo logo-dark" alt="BestRetail" src="img/logo-dark.png">
 		                </a>
 		            </div>
 		            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -36,26 +33,23 @@
 		            <div class="module-group right">
 		                <div class="module left">
 		                    <ul class="menu">
-		                        <li>
+		                        <li class="active">
 		                            <a href="#">Home</a>
 		                        </li>
 		                        <li>
-		                            <a href="#">Features</a>
+		                            <a href="features.html">Features</a>
 		                        </li>
 		                        <li>
-		                            <a href="#">Contact</a>
+		                            <a href="contact.html">Contact</a>
 		                        </li>   
 		                        
 		                    </ul>
-		                </div>
-		                
-		            
-		            </div>
-		            
-		        </div>
+		                </div> <!-- module-group right -->
+		            </div> <!-- module-group right -->
+		        </div> <!-- nav-bar -->
 		    </nav>
 		
-		</div>
+		</div> <!-- nav-container -->
 		
 		<div class="main-container">
 					
@@ -284,44 +278,46 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-6">
-							<img alt="Logo" class="logo" src="img/logo-light.png">
+							<div class="widget">
+								<h6 class="title">Contact Us</h6>
+								<hr>
+								<img alt="Logo" class="logo" src="img/logo-light.png">
+								<p class="footerContent">279 Rt. 31 South<br>
+								Suite 4
+								<br>Washington, NJ 07882
+								<br>Phone: 908 835 2990<br>
+								E-mail: <a href="mailto:info@bestretail.com">info@bestretail.com</a></p>
+							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6">
 							<div class="widget">
 								<h6 class="title">Recent Posts</h6>
 								<hr>
-								<ul class="link-list recent-posts">
-									<li>
-										<a href="#">Hugging pugs is super trendy</a>
-										<span class="date">February
-											<span class="number">14, 2015</span>
-										</span>
-									</li>
-									<li>
-										<a href="#">Spinning vinyl is oh so cool</a>
-										<span class="date">February
-											<span class="number">9, 2015</span>
-										</span>
-									</li>
-									<li>
-										<a href="#">Superior theme design by pros</a>
-										<span class="date">January
-											<span class="number">27, 2015</span>
-										</span>
-									</li>
+								<ul class="footerList">
+									<li><a href="#">SEO and PPC</a></li>
+									<li><a href="#">Responsive Design</a></li>
+									<li><a href="#">Social Media Marketing</a></li>
+									<li><a href="#">Landing Page Optimization</a></li>
+									<li><a href="#">WordPress Themes Development</a></li>
 								</ul>
+								
 							</div>
 						</div> <!-- col-md-3 col-sm-6 -->
 						
 						<div class="col-md-3 col-sm-6">
 							<div class="widget">
-								<h6 class="title">Latest Updates</h6>
+								<h6 class="title">Sign Up For Newsletter</h6>
 								<hr>
-								<div class="twitter-feed">
-									<div class="tweets-feed" data-widget-id="492085717044981760">
-									</div>
-								</div>
+								<p class="footerContent">Put your e-mail and click on the envelope button.</p>
+								<form action="newsletter-signup.php" method="post" class="newsletter-subscribe-form">
+									<input name="MAIL" id="news_email" placeholder="Your e-mail">
+									<button type="submit" name="subscribe" id="subscribe" class="btn btn-filled" value="1">
+										<i class="icon ti-email"></i> <p>Subscribe</p>
+									</button>
+									<!-- <a class="mb0 btn btn-lg btn-filled" href="#purchase-template">Purchase Foundry</a> -->
+								</form>
+
 							</div>
 							
 						</div>
@@ -329,7 +325,7 @@
 							<div class="widget">
 								<h6 class="title">Instagram</h6>
 								<hr>
-								<div class="instafeed" data-user-name="funsizeco">
+								<div class="instafeed" data-user-name="chris_hursty">
 									<ul></ul>
 								</div>
 							</div>
@@ -375,7 +371,7 @@
 				
 				<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
 			</footer>
-		</div>
+		</div> <!-- main-container -->
 		
 		<!--- Scripts --->
 		<script src="js/jquery.min.js"></script>
