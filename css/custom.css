@@ -1,5 +1,17 @@
 /*--- CUSTOM STYLES ---*/
 
+
+body {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+/* Home Page */
+@media all and (max-width: 767px) {
+	.parallax > .background-image-holder, .parallax .slides li > .background-image-holder {
+		height: 52vh;
+	}
+}
+
 .text-slider .flex-direction-nav li a:before {
   color: #fff;
 }
@@ -16,18 +28,18 @@
 	background-color: #ececec;
 }
 
-.detailsWhy {
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	line-height: 32px;
-	margin-top: 10px;
-}
-
 .whyBr i {
 	font-size: 28px;
 	color: #770004;
 	margin-right: 10px;
 	text-shadow: 0 1px 0 #F11E26;
+}
+
+.detailsWhy {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 32px;
+	margin-top: 10px;
 }
 
 .button-tabs .active .tab-title {
@@ -129,3 +141,58 @@ button#subscribe {
 	margin-left: 15px;
 }
 
+@media all and (max-width: 767px) {
+	.oneHalfDiv {
+		width: 98%;
+		margin: 1%;
+		float: left;
+		font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 12px;
+	}
+}
+
+/* Contact Page */
+
+.brContactForm button {
+	background: #b91016;
+	border: 0;
+}
+
+
+
+/**-- RESPONSIVENESS --**/
+
+@media (max-width: 990px) {
+	.mobile-toggle {
+		border-bottom: 1px solid #ccc !important;
+	}
+	
+	.module-group {
+		border-top: 1px solid #ccc;
+		margin-top: -1px;
+	}
+	
+	section {
+		padding: 40px 0;
+	}
+	
+	.whyBr h1,
+	.whyBr h5 {
+		text-align: center;
+	}
+
+	.whyBr i {
+		font-size: 14px;
+	}
+
+	.detailsWhy {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	
+	.button-tabs .tabs li,
+	.button-tabs .tab-title,
+	.button-tabs .active .tab-title {
+		width: 100%;
+	}
+}
