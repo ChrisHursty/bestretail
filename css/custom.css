@@ -115,6 +115,24 @@ button#subscribe {
 	color: #b91016;
 }
 
+ul.featuresList {
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 14px;
+	list-style: square;
+	text-align: left;
+}
+
+.accordion-2 .title {
+	text-align: left;
+}
+
+.accordion-2 .title span {
+	font-size: 20px;
+	font-weight: 900 !important;
+	color: #b91016;
+}
+
 .oneHalfDiv {
 	width: 48%;
 	margin: 1%;
@@ -130,16 +148,13 @@ button#subscribe {
 	border: 1px solid #ececec;
 }
 
-.oneHalfDiv ul {
+.tab-content .oneHalfDiv ul {
+	margin-top: 15px;
+	margin-left: 15px;
 	list-style: square;
 	text-align: left;
 }
 
-.oneHalfDiv ul ul {
-	list-style:circle;
-	text-align: left;
-	margin-left: 15px;
-}
 
 @media all and (max-width: 767px) {
 	.oneHalfDiv {
